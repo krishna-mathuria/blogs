@@ -1,2 +1,2 @@
-django
+Django==2.2.5
 django-heroku
