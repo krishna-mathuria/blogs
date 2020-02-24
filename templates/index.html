@@ -11,8 +11,8 @@
     {% if user.is_authenticated %}
    <p><a href="{% url 'logout_url' %}">logout</a></p>
    {% else %}
-   <a href="{% url 'login_url' %}">Login</a>
-   <a href="{% url 'register_url' %}">Register</a>
+   <a href="{% url 'login_url' %}">Login!</a>
+   <a href="{% url 'register_url' %}">Register!</a>
 {% endif %}
     {% endblock %}
   </main>
